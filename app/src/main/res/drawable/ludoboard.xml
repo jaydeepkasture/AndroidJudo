@@ -1,0 +1,36 @@
+<svg width="210mm" height="210mm" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Board background -->
+    <rect x="5" y="5" width="200mm" height="200mm" fill="white" stroke="black" stroke-width="2"/>
+
+    <!-- Red Section -->
+    <rect x="5" y="5" width="100mm" height="100mm" fill="red"/>
+    <!-- Red pawns -->
+    <circle cx="30" cy="30" r="10" fill="white"/>
+    <circle cx="80" cy="30" r="10" fill="white"/>
+    <circle cx="30" cy="80" r="10" fill="white"/>
+    <circle cx="80" cy="80" r="10" fill="white"/>
+
+    <!-- Green Section -->
+    <rect x="105" y="5" width="100mm" height="100mm" fill="green"/>
+    <!-- Green pawns -->
+    <circle cx="130" cy="30" r="10" fill="white"/>
+    <circle cx="180" cy="30" r="10" fill="white"/>
+    <circle cx="130" cy="80" r="10" fill="white"/>
+    <circle cx="180" cy="80" r="10" fill="white"/>
+
+    <!-- Blue Section -->
+    <rect x="5" y="105" width="100mm" height="100mm" fill="blue"/>
+    <!-- Blue pawns -->
+    <circle cx="30" cy="130" r="10" fill="white"/>
+    <circle cx="80" cy="130" r="10" fill="white"/>
+    <circle cx="30" cy="180" r="10" fill="white"/>
+    <circle cx="80" cy="180" r="10" fill="white"/>
+
+    <!-- Yellow Section -->
+    <rect x="105" y="105" width="100mm" height="100mm" fill="yellow"/>
+    <!-- Yellow pawns -->
+    <circle cx="130" cy="130" r="10" fill="white"/>
+    <circle cx="180" cy="130" r="10" fill="white"/>
+    <circle cx="130" cy="180" r="10" fill="white"/>
+    <circle cx="180" cy="180" r="10" fill="white"/>
+</svg>
