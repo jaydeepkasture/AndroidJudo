@@ -2,8 +2,8 @@
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">www.wslphone.com</domain>
-        <trust-anchors src="@res/raw/keystore.p12">
-
+        <trust-anchors>
+            <certificates src="@raw/ca" />
         </trust-anchors>
     </domain-config>
 </network-security-config>

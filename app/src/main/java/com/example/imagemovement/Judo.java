@@ -1,4 +1,6 @@
 package com.example.imagemovement;
+import java.io.IOException;
+import java.net.InetAddress;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,6 +20,8 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
+
+import java.net.InetAddress;
 import java.security.KeyStore;
 import java.security.SecureRandom;
 
@@ -31,7 +35,12 @@ public class Judo extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         try {
-            SocketWeb.GetSocket();
+
+            com.example.imagemovement.sslconnect.WebSocketClient webSocketClient = new com.example.imagemovement.sslconnect.WebSocketClient();
+            webSocketClient.connect("ws://www.wslphone.com:8080");
+//            executeCommand();
+//            checkServerConnectivity();
+//            SocketWeb.GetSocket();
 //           WebSocketHelper webSocketHelper = new WebSocketHelper(this);
 //            webSocketHelper.connectWebSocket();
 //            String keystorePassword = "123";
@@ -64,6 +73,46 @@ public class Judo extends AppCompatActivity {
             e.printStackTrace();
             Log.e(TAG, "Error: " + e.toString());
         }
+    }
+
+
+    public void checkServerConnectivity() {
+        try {
+            InetAddress address = InetAddress.getByName("www.wslphone.com");
+            Log.d("ConnectivityCheck", "IP Address: " + address.getHostAddress());
+            // Try to ping the server
+            boolean reachable = address.isReachable(5000); // timeout in milliseconds
+            Log.d("ConnectivityCheck", "Reachable: " + reachable);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.e("ConnectivityCheck", "Error: " + e.toString());
+        }
+    }
+    private boolean executeCommand(){
+        Log.d("ConnectivityCheck", "executeCommand");
+        Runtime runtime = Runtime.getRuntime();
+        try
+        {
+            Process  mIpAddrProcess = runtime.exec("/system/bin/ping -c 1 https://www.wslphone.com");
+            int mExitValue = mIpAddrProcess.waitFor();
+            Log.d("ConnectivityCheck"," mExitValue "+mExitValue);
+            if(mExitValue==0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        catch (InterruptedException ignore)
+        {
+            ignore.printStackTrace();
+            Log.d("ConnectivityCheck", " Exception:"+ignore);
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+            Log.d("ConnectivityCheck", " Exception:"+e);
+        }
+        return false;
     }
 
     private SSLContext createSSLContext(KeyStore keyStore, String keystorePassword) throws Exception {
