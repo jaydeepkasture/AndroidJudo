@@ -19,7 +19,7 @@ public final class SocketWeb extends WebSocketListener {
                 .build();
 
         Request request = new Request.Builder()
-                .url("wss://www.wslphone.com:8080")
+                .url("https://8080-cs-4547aa50-445b-4280-a13d-57881ff8cebc.cs-asia-southeast1-bool.cloudshell.dev/?authuser=0&redirectedPreviously=true")
                 .build();
         client.newWebSocket(request, this);
 

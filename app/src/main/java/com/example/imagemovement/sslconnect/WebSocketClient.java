@@ -5,6 +5,8 @@ import okhttp3.WebSocketListener;
 import okhttp3.Response;
 import okhttp3.Headers;
 import okio.ByteString;
+
+import android.content.Context;
 import android.util.Log;
 import java.io.IOException;
 
@@ -14,7 +16,7 @@ public class WebSocketClient {
     private WebSocket webSocket;
     private static final String TAG = "WebSocketClient";
 
-    public WebSocketClient() {
+    public WebSocketClient(Context con) {
         client = new OkHttpClient();
     }
 

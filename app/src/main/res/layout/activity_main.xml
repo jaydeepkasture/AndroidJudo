@@ -4,42 +4,2418 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/msgtxt"
-        android:layout_width="270dp"
-        android:layout_height="214dp"
-        android:text="msg"
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/board"
+        android:layout_width="427dp"
+        android:layout_height="421dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="1"
+        android:background="@drawable/_526560865"
+        android:foregroundGravity="center|fill"
+        android:paddingLeft="14dp"
+        android:paddingTop="14dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="14dp"
+        app:columnCount="15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" />
+        app:rowCount="15">
 
-    <TextView
-        android:id="@+id/connectiontxt"
-        android:layout_width="270dp"
-        android:layout_height="214dp"
-        android:text="connection"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562" />
+        <ImageView
 
-    <TextView
-        android:id="@+id/errortxt"
-        android:layout_width="270dp"
-        android:layout_height="214dp"
-        android:text="error"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:visibility="visible"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/google_authenticator_icon"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:foregroundGravity="fill"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:foreground="@drawable/facebook"
+            android:scaleType="centerInside"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="2" />
+
+    </androidx.gridlayout.widget.GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

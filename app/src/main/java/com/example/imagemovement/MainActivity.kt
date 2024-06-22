@@ -1,79 +1,87 @@
 package com.example.imagemovement
 
+import android.animation.ObjectAnimator
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
+import android.view.View
+import androidx.gridlayout.widget.GridLayout
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintSet
 import com.example.imagemovement.databinding.ActivityMainBinding
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import java.io.IOException
-import javax.net.ssl.X509TrustManager
-
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var imageView: ImageView
     private lateinit var pathform: ImageView
-    private lateinit var layout: ConstraintLayout
     private lateinit var binding: ActivityMainBinding
+    private lateinit var gridLayout: GridLayout
+    private lateinit var spots: Array<ImageView>
+    private lateinit var spawnedImageView: ImageView
+    private lateinit var constraintLayout: ConstraintLayout
+    private  var tag: String="Board"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        try {
+
+            gridLayout = findViewById(R.id.board)
+            pathform = ImageView(this).apply {
+                setImageResource(R.drawable.adobe) // Set your image here
+                layoutParams = ConstraintLayout.LayoutParams(90, 90)
+            }
+            val rootLayout = findViewById<ConstraintLayout>(R.id.main_layout)
+            rootLayout.addView(pathform)
+
+            constraintLayout = findViewById(R.id.main_layout)
+            gridLayout = findViewById(R.id.board)
 
 
+            // Ensure GridLayout has children and get the position of the first child
+            gridLayout.post {
 
+                val myArray1 = intArrayOf(1,  46,90,3,20,34,120)
+                    moveImageToSpots(myArray1) // Pass the array of indices
 
-
-//            val keystoreResId: Int = com.example.imagemovement.R.raw.keystore  // Replace with the correct resource ID
-//        var o=KeystoreLoader.loadKeystore(this,keystoreResId);
-//           var webSocketEcho = WebSocketEcho({ // Handle the connected event
-//                runOnUiThread {}
-//            }, this, keystoreResId)
-//            webSocketEcho.start()
-
-
-
-    }
-    private lateinit var webSocketClient: WebSocketClient
-    //you can get your own socket key by registering to pieSocket form here
-    // https://www.piesocket.com/register?plan=free
-    private val socketKey = "OoxcCdu52cCwxFKF3SqRd6ZlLJW2g9OpMokNsIlw"
-
-    private val socketListener = object : WebSocketClient.SocketListener {
-        override fun onMessage(message: String) {
-            Log.e("socketCheck onMessage", message)
+            }
+        }catch (e:Exception){
+            Log.d("board",e.toString())
         }
 
     }
-    private lateinit var tvResponse: TextView
-    private lateinit var error: TextView
-    private lateinit var connectiontxt: TextView
-    private fun makeRequest() {
-        val client = OkHttpClient()
-        val request = Request.Builder()
-            .url("http://localhost:8080") // Use 10.0.2.2 for local machine
-            .build()
 
-        client.newCall(request).enqueue(object : okhttp3.Callback {
-            override fun onFailure(call: okhttp3.Call, e: IOException) {
-                runOnUiThread {
-                    Log.i("error-error","Failed to Connect: ${e.toString()}")
-                }
-            }
+    private fun moveImageToSpots(indices: IntArray) {
+        val handler = Handler(Looper.getMainLooper())
+        var currentIndex = 0
 
-            override fun onResponse(call: okhttp3.Call, response: okhttp3.Response) {
-                if (response.isSuccessful) {
+        val runnable = object : Runnable {
+            override fun run() {
+                if (currentIndex < indices.size) {
+                    val index = ++currentIndex
+                    if (index in indices) {
+                        val targetSpot = gridLayout.getChildAt(indices[index])
+                        val location = IntArray(2)
+                        targetSpot.getLocationOnScreen(location)
+                        val targetX = location[0] + targetSpot.width / 2 - pathform.width / 2
+                        val targetY = location[1] - targetSpot.height / 2 - pathform.height / 2
 
-                    val myResponse = response.request.body
-                    runOnUiThread {
-//                        tvResponse.text = myResponse.toString()
-                        Log.i("msg-msg","Connection : ${myResponse.toString()}")
-
+                        ObjectAnimator.ofFloat(pathform, "x", pathform.x, targetX.toFloat()).apply {
+                            duration = 500
+                            start()
+                        }
+                        ObjectAnimator.ofFloat(pathform, "y", pathform.y, targetY.toFloat()).apply {
+                            duration = 500
+                            start()
+                        }
                     }
+                    currentIndex++
+                    handler.postDelayed(this, 500) // Delay for animation
                 }
             }
-        })
+        }
+
+        handler.post(runnable)
     }
 }
