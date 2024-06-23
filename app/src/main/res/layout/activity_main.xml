@@ -5,12 +5,12 @@
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/board"
-        android:layout_width="427dp"
+        android:layout_width="wrap_content"
         android:layout_height="421dp"
         android:alpha="1"
         android:background="@drawable/_526560865"
