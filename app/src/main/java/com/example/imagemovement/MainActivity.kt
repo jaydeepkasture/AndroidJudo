@@ -6,8 +6,10 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import android.view.View
+import android.view.ViewGroup
 import androidx.gridlayout.widget.GridLayout
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
@@ -28,21 +30,24 @@ class MainActivity : AppCompatActivity() {
         try {
 
             gridLayout = findViewById(R.id.board)
-            pathform = ImageView(this).apply {
-                setImageResource(R.drawable.adobe) // Set your image here
-                layoutParams = ConstraintLayout.LayoutParams(90, 90)
-            }
-            val rootLayout = findViewById<ConstraintLayout>(R.id.main_layout)
-            rootLayout.addView(pathform)
-
-            constraintLayout = findViewById(R.id.main_layout)
-            gridLayout = findViewById(R.id.board)
 
 
             // Ensure GridLayout has children and get the position of the first child
             gridLayout.post {
 
-                val myArray1 = intArrayOf(1,  46,90,3,20,34,120)
+                var child=gridLayout.getChildAt(0)
+                var y = child.width
+                var x = child.height;
+                pathform = ImageView(this).apply {
+                    setImageResource(R.drawable.adobe) // Set your image here
+                    layoutParams = ConstraintLayout.LayoutParams(x/2, y/2)
+                }
+                val rootLayout = findViewById<ConstraintLayout>(R.id.main_layout)
+                rootLayout.addView(pathform)
+
+                constraintLayout = findViewById(R.id.main_layout)
+                Log.d(tag,"height $y widht $x")
+                val myArray1 = intArrayOf(1,  46,90,3,20,34,120,20,101,40,94,120,144)
                     moveImageToSpots(myArray1) // Pass the array of indices
 
             }
@@ -59,8 +64,7 @@ class MainActivity : AppCompatActivity() {
         val runnable = object : Runnable {
             override fun run() {
                 if (currentIndex < indices.size) {
-                    val index = ++currentIndex
-                    if (index in indices) {
+                    val index = currentIndex
                         val targetSpot = gridLayout.getChildAt(indices[index])
                         val location = IntArray(2)
                         targetSpot.getLocationOnScreen(location)
@@ -75,7 +79,6 @@ class MainActivity : AppCompatActivity() {
                             duration = 500
                             start()
                         }
-                    }
                     currentIndex++
                     handler.postDelayed(this, 500) // Delay for animation
                 }
