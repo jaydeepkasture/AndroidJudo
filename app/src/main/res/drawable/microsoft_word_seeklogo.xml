@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="560dp"
+    android:height="400dp"
+    android:viewportWidth="560"
+    android:viewportHeight="400">
+  <path
+      android:pathData="m380.83,103.75h-146.66c-5.03,0 -9.16,4.14 -9.16,9.16v38.96l82.5,24.06 82.5,-24.06v-38.96c0,-5.03 -4.14,-9.16 -9.16,-9.16z"
+      android:strokeLineJoin="round"
+      android:fillColor="#41a5ee"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="m389.99,151.88h-164.99v48.12l82.5,24.06 82.5,-24.06z"
+      android:strokeLineJoin="round"
+      android:fillColor="#2b7cd3"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="m389.99,200h-164.99v48.12l82.5,24.06 82.5,-24.06z"
+      android:strokeLineJoin="round"
+      android:fillColor="#185abd"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="m389.99,248.12h-164.99v38.96c0,5.03 4.14,9.16 9.16,9.16h146.66c5.03,0 9.16,-4.14 9.16,-9.16z"
+      android:strokeLineJoin="round"
+      android:fillColor="#103f91"
+      android:fillType="nonZero"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m284.58,138.13h-59.58v130.62h59.58c5.02,-0.01 9.15,-4.14 9.16,-9.16v-112.29c-0.01,-5.02 -4.14,-9.15 -9.16,-9.16z"
+      android:strokeLineJoin="round"
+      android:fillAlpha="0.098039"
+      android:fillType="nonZero"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m277.71,145h-52.71v130.62h52.71c5.02,-0.01 9.15,-4.14 9.16,-9.16v-112.29c-0.01,-5.02 -4.14,-9.15 -9.16,-9.16zM277.71,145h-52.71v116.87h52.71c5.02,-0.01 9.15,-4.14 9.16,-9.16v-98.54c-0.01,-5.02 -4.14,-9.15 -9.16,-9.16zM270.83,145h-45.83v116.87h45.83c5.02,-0.01 9.15,-4.14 9.16,-9.16v-98.54c-0.01,-5.02 -4.14,-9.15 -9.16,-9.16z"
+      android:strokeLineJoin="round"
+      android:fillAlpha="0.2"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="m179.16,145h91.66c5.03,0 9.16,4.14 9.16,9.16v91.66c0,5.03 -4.14,9.16 -9.16,9.16h-91.66c-5.03,0 -9.16,-4.14 -9.16,-9.16v-91.66c0,-5.03 4.14,-9.16 9.16,-9.16z"
+      android:strokeLineJoin="round"
+      android:fillColor="#185abd"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="m252.15,234.37h-12.38l-14.44,-47.44 -15.13,47.44h-12.37l-13.75,-68.75h12.38l9.62,48.12 14.44,-46.75h10.31l13.75,46.75 9.62,-48.12h11.69z"
+      android:strokeLineJoin="round"
+      android:fillColor="#fff"
+      android:fillType="nonZero"/>
+</vector>
