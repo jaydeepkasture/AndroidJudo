@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                     val targetY = location[1]
 
                     pawn.setX(targetX.toFloat());
-                    pawn.setY(targetY.toFloat());
+                    pawn.setY(targetY.toFloat() );
 //                  pawn.animate().x(dpX).y(dpY).setDuration(300)
 //                  ObjectAnimator.ofFloat(pawn, "translationX", pawn.x, targetSpot.x).apply {
 //                      duration = 500

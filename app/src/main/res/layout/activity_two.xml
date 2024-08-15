@@ -10,13 +10,11 @@
 
     <android.widget.GridLayout
         android:id="@+id/boardgrid"
-        android:layout_width="421dp"
+        android:layout_width="0dp"
         android:layout_height="421dp"
         android:alpha="1"
-        android:background="@drawable/_526560865"
+        android:background="@drawable/ludoboard_updated"
         android:columnCount="15"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="15dp"
         android:rowCount="15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,1580 +23,2255 @@
 
         <ImageView
             android:id="@+id/spot1"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot1" />
 
         <ImageView
             android:id="@+id/spot2"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot2" />
 
         <ImageView
             android:id="@+id/spot3"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot3" />
 
         <ImageView
             android:id="@+id/spot4"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot4" />
 
         <ImageView
             android:id="@+id/spot5"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot5" />
 
         <ImageView
             android:id="@+id/spot6"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot6" />
 
         <ImageView
             android:id="@+id/spot7"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot7" />
 
         <ImageView
             android:id="@+id/spot8"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot8" />
 
         <ImageView
             android:id="@+id/spot9"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot9" />
 
         <ImageView
             android:id="@+id/spot10"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot10" />
 
         <ImageView
             android:id="@+id/spot11"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot11" />
 
         <ImageView
             android:id="@+id/spot12"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot12" />
 
         <ImageView
             android:id="@+id/spot13"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot13" />
 
         <ImageView
             android:id="@+id/spot14"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot14" />
 
         <ImageView
             android:id="@+id/spot15"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot15" />
 
         <ImageView
             android:id="@+id/spot16"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot16" />
 
         <ImageView
             android:id="@+id/spot17"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot17" />
 
         <ImageView
             android:id="@+id/spot18"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot18" />
 
         <ImageView
             android:id="@+id/spot19"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot19" />
 
         <ImageView
             android:id="@+id/spot20"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot20" />
 
         <ImageView
             android:id="@+id/spot21"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot21" />
 
         <ImageView
             android:id="@+id/spot22"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot22" />
 
         <ImageView
             android:id="@+id/spot23"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot23" />
 
         <ImageView
             android:id="@+id/spot24"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot24" />
 
         <ImageView
             android:id="@+id/spot25"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot25" />
 
         <ImageView
             android:id="@+id/spot26"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot26" />
 
         <ImageView
             android:id="@+id/spot27"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot27" />
 
         <ImageView
             android:id="@+id/spot28"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot28" />
 
         <ImageView
             android:id="@+id/spot29"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot29" />
 
         <ImageView
             android:id="@+id/spot30"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot30" />
 
         <ImageView
             android:id="@+id/spot31"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot31" />
 
         <ImageView
             android:id="@+id/spot32"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot32" />
 
         <ImageView
             android:id="@+id/spot33"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot33" />
 
         <ImageView
             android:id="@+id/spot34"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot34" />
 
         <ImageView
             android:id="@+id/spot35"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot35" />
 
         <ImageView
             android:id="@+id/spot36"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot36" />
 
         <ImageView
             android:id="@+id/spot37"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot37" />
 
         <ImageView
             android:id="@+id/spot38"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot38" />
 
         <ImageView
             android:id="@+id/spot39"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot39" />
 
         <ImageView
             android:id="@+id/spot40"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot40" />
 
         <ImageView
             android:id="@+id/spot41"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot41" />
 
         <ImageView
             android:id="@+id/spot42"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot42" />
 
         <ImageView
             android:id="@+id/spot43"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot43" />
 
         <ImageView
             android:id="@+id/spot44"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot44" />
 
         <ImageView
             android:id="@+id/spot45"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot45" />
 
         <ImageView
             android:id="@+id/spot46"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot46" />
 
         <ImageView
             android:id="@+id/spot47"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot47" />
 
         <ImageView
             android:id="@+id/spot48"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot48" />
 
         <ImageView
             android:id="@+id/spot49"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot49" />
 
         <ImageView
             android:id="@+id/spot50"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot50" />
 
         <ImageView
             android:id="@+id/spot51"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot51" />
 
         <ImageView
             android:id="@+id/spot52"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot52" />
 
         <ImageView
             android:id="@+id/spot53"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot53" />
 
         <ImageView
             android:id="@+id/spot54"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot54" />
 
         <ImageView
             android:id="@+id/spot55"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot55" />
 
         <ImageView
             android:id="@+id/spot56"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot56" />
 
         <ImageView
             android:id="@+id/spot57"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot57" />
 
         <ImageView
             android:id="@+id/spot58"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot58" />
 
         <ImageView
             android:id="@+id/spot59"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot59" />
 
         <ImageView
             android:id="@+id/spot60"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot60" />
 
         <ImageView
             android:id="@+id/spot61"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot61" />
 
         <ImageView
             android:id="@+id/spot62"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot62" />
 
         <ImageView
             android:id="@+id/spot63"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot63" />
 
         <ImageView
             android:id="@+id/spot64"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot64" />
 
         <ImageView
             android:id="@+id/spot65"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot65" />
 
         <ImageView
             android:id="@+id/spot66"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot66" />
 
         <ImageView
             android:id="@+id/spot67"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot67"
             tools:srcCompat="@drawable/microsoft" />
 
         <ImageView
             android:id="@+id/spot68"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot68" />
 
         <ImageView
             android:id="@+id/spot69"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot69" />
 
         <ImageView
             android:id="@+id/spot70"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot70" />
 
         <ImageView
             android:id="@+id/spot71"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot71" />
 
         <ImageView
             android:id="@+id/spot72"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot72" />
 
         <ImageView
             android:id="@+id/spot73"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot73" />
 
         <ImageView
             android:id="@+id/spot74"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot74" />
 
         <ImageView
             android:id="@+id/spot75"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot75" />
 
         <ImageView
             android:id="@+id/spot76"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot76" />
 
         <ImageView
             android:id="@+id/spot77"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot77" />
 
         <ImageView
             android:id="@+id/spot78"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot78" />
 
         <ImageView
             android:id="@+id/spot79"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot79" />
 
         <ImageView
             android:id="@+id/spot80"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot80" />
 
         <ImageView
             android:id="@+id/spot81"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot81" />
 
         <ImageView
             android:id="@+id/spot82"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot82" />
 
         <ImageView
             android:id="@+id/spot83"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot83" />
 
         <ImageView
             android:id="@+id/spot84"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot84" />
 
         <ImageView
             android:id="@+id/spot85"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot85" />
 
         <ImageView
             android:id="@+id/spot86"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot86" />
 
         <ImageView
             android:id="@+id/spot87"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot87" />
 
         <ImageView
             android:id="@+id/spot88"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot88" />
 
         <ImageView
             android:id="@+id/spot89"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot89" />
 
         <ImageView
             android:id="@+id/spot90"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot90" />
 
         <ImageView
             android:id="@+id/spot91"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot91" />
 
         <ImageView
             android:id="@+id/spot92"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot92" />
 
         <ImageView
             android:id="@+id/spot93"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot93"
             app:srcCompat="@drawable/facebook" />
 
         <ImageView
             android:id="@+id/spot94"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot94" />
 
         <ImageView
             android:id="@+id/spot95"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot95" />
 
         <ImageView
             android:id="@+id/spot96"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot96"
             app:srcCompat="@drawable/adobe" />
 
         <ImageView
             android:id="@+id/spot97"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot97" />
 
         <ImageView
             android:id="@+id/spot98"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot98" />
 
         <ImageView
             android:id="@+id/spot99"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot99" />
 
         <ImageView
             android:id="@+id/spot100"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot100" />
 
         <ImageView
             android:id="@+id/spot101"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot101" />
 
         <ImageView
             android:id="@+id/spot102"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot102" />
 
         <ImageView
             android:id="@+id/spot103"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot103" />
 
         <ImageView
             android:id="@+id/spot104"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot104" />
 
         <ImageView
             android:id="@+id/spot105"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot105" />
 
         <ImageView
             android:id="@+id/spot106"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot106" />
 
         <ImageView
             android:id="@+id/spot107"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot107" />
 
         <ImageView
             android:id="@+id/spot108"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot108" />
 
         <ImageView
             android:id="@+id/spot109"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot109" />
 
         <ImageView
             android:id="@+id/spot110"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot110" />
 
         <ImageView
             android:id="@+id/spot111"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot111" />
 
         <ImageView
             android:id="@+id/spot112"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot112" />
 
         <ImageView
             android:id="@+id/spot113"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot113" />
 
         <ImageView
             android:id="@+id/spot114"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot114" />
 
         <ImageView
             android:id="@+id/spot115"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot115" />
 
         <ImageView
             android:id="@+id/spot116"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot116" />
 
         <ImageView
             android:id="@+id/spot117"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot117" />
 
         <ImageView
             android:id="@+id/spot118"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot118" />
 
         <ImageView
             android:id="@+id/spot119"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot119" />
 
         <ImageView
             android:id="@+id/spot120"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot120" />
 
         <ImageView
             android:id="@+id/spot121"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot121" />
 
         <ImageView
             android:id="@+id/spot122"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot122" />
 
         <ImageView
             android:id="@+id/spot123"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot123" />
 
         <ImageView
             android:id="@+id/spot124"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot124" />
 
         <ImageView
             android:id="@+id/spot125"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot125" />
 
         <ImageView
             android:id="@+id/spot126"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot126" />
 
         <ImageView
             android:id="@+id/spot127"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot127" />
 
         <ImageView
             android:id="@+id/spot128"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot128" />
 
         <ImageView
             android:id="@+id/spot129"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot129" />
 
         <ImageView
             android:id="@+id/spot130"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot130" />
 
         <ImageView
             android:id="@+id/spot131"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot131" />
 
         <ImageView
             android:id="@+id/spot132"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot132" />
 
         <ImageView
             android:id="@+id/spot133"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot133" />
 
         <ImageView
             android:id="@+id/spot134"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot134" />
 
         <ImageView
             android:id="@+id/spot135"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot135" />
 
         <ImageView
             android:id="@+id/spot136"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot136" />
 
         <ImageView
             android:id="@+id/spot137"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot137" />
 
         <ImageView
             android:id="@+id/spot138"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot138" />
 
         <ImageView
             android:id="@+id/spot139"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot139" />
 
         <ImageView
             android:id="@+id/spot140"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot140" />
 
         <ImageView
             android:id="@+id/spot141"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot141" />
 
         <ImageView
             android:id="@+id/spot142"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot142" />
 
         <ImageView
             android:id="@+id/spot143"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot143" />
 
         <ImageView
             android:id="@+id/spot144"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot144" />
 
         <ImageView
             android:id="@+id/spot145"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot145" />
 
         <ImageView
             android:id="@+id/spot146"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot146" />
 
         <ImageView
             android:id="@+id/spot147"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot147" />
 
         <ImageView
             android:id="@+id/spot148"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot148" />
 
         <ImageView
             android:id="@+id/spot149"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot149" />
 
         <ImageView
             android:id="@+id/spot150"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot150" />
 
         <ImageView
             android:id="@+id/spot151"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot151" />
 
         <ImageView
             android:id="@+id/spot152"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot152" />
 
         <ImageView
             android:id="@+id/spot153"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot153" />
 
         <ImageView
             android:id="@+id/spot154"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot154" />
 
         <ImageView
             android:id="@+id/spot155"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot155" />
 
         <ImageView
             android:id="@+id/spot156"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot156" />
 
         <ImageView
             android:id="@+id/spot157"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot157" />
 
         <ImageView
             android:id="@+id/spot158"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot158" />
 
         <ImageView
             android:id="@+id/spot159"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot159" />
 
         <ImageView
             android:id="@+id/spot160"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot160" />
 
         <ImageView
             android:id="@+id/spot161"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot161" />
 
         <ImageView
             android:id="@+id/spot162"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot162" />
 
         <ImageView
             android:id="@+id/spot163"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot163" />
 
         <ImageView
             android:id="@+id/spot164"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot164" />
 
         <ImageView
             android:id="@+id/spot165"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot165" />
 
         <ImageView
             android:id="@+id/spot166"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot166" />
 
         <ImageView
             android:id="@+id/spot167"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot167" />
 
         <ImageView
             android:id="@+id/spot168"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot168" />
 
         <ImageView
             android:id="@+id/spot169"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot169" />
 
         <ImageView
             android:id="@+id/spot170"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot170" />
 
         <ImageView
             android:id="@+id/spot171"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot171" />
 
         <ImageView
             android:id="@+id/spot172"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot172" />
 
         <ImageView
             android:id="@+id/spot173"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot173" />
 
         <ImageView
             android:id="@+id/spot174"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot174" />
 
         <ImageView
             android:id="@+id/spot175"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot175" />
 
         <ImageView
             android:id="@+id/spot176"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot176" />
 
         <ImageView
             android:id="@+id/spot177"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot177" />
 
         <ImageView
             android:id="@+id/spot178"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot178" />
 
         <ImageView
             android:id="@+id/spot179"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot179" />
 
         <ImageView
             android:id="@+id/spot180"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot180" />
 
         <ImageView
             android:id="@+id/spot181"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot181" />
 
         <ImageView
             android:id="@+id/spot182"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot182" />
 
         <ImageView
             android:id="@+id/spot183"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot183" />
 
         <ImageView
             android:id="@+id/spot184"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot184" />
 
         <ImageView
             android:id="@+id/spot185"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot185" />
 
         <ImageView
             android:id="@+id/spot186"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot186" />
 
         <ImageView
             android:id="@+id/spot187"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot187" />
 
         <ImageView
             android:id="@+id/spot188"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot188" />
 
         <ImageView
             android:id="@+id/spot189"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot189" />
 
         <ImageView
             android:id="@+id/spot190"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot190" />
 
         <ImageView
             android:id="@+id/spot191"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot191" />
 
         <ImageView
             android:id="@+id/spot192"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot192" />
 
         <ImageView
             android:id="@+id/spot193"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot193" />
 
         <ImageView
             android:id="@+id/spot194"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot194" />
 
         <ImageView
             android:id="@+id/spot195"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot195" />
 
         <ImageView
             android:id="@+id/spot196"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot196" />
 
         <ImageView
             android:id="@+id/spot197"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot197" />
 
         <ImageView
             android:id="@+id/spot198"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot198" />
 
         <ImageView
             android:id="@+id/spot199"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot199" />
 
         <ImageView
             android:id="@+id/spot200"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot200" />
 
         <ImageView
             android:id="@+id/spot201"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot201" />
 
         <ImageView
             android:id="@+id/spot202"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot202" />
 
         <ImageView
             android:id="@+id/spot203"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot203" />
 
         <ImageView
             android:id="@+id/spot204"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot204" />
 
         <ImageView
             android:id="@+id/spot205"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot205" />
 
         <ImageView
             android:id="@+id/spot206"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot206" />
 
         <ImageView
             android:id="@+id/spot207"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot207" />
 
         <ImageView
             android:id="@+id/spot208"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot208" />
 
         <ImageView
             android:id="@+id/spot209"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot209" />
 
         <ImageView
             android:id="@+id/spot210"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot210" />
 
         <ImageView
             android:id="@+id/spot211"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot211" />
 
         <ImageView
             android:id="@+id/spot212"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot212" />
 
         <ImageView
             android:id="@+id/spot213"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot213" />
 
         <ImageView
             android:id="@+id/spot214"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot214" />
 
         <ImageView
             android:id="@+id/spot215"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot215" />
 
         <ImageView
             android:id="@+id/spot216"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot216" />
 
         <ImageView
             android:id="@+id/spot217"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot217" />
 
         <ImageView
             android:id="@+id/spot218"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot218" />
 
         <ImageView
             android:id="@+id/spot219"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot219" />
 
         <ImageView
             android:id="@+id/spot220"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot220" />
 
         <ImageView
             android:id="@+id/spot221"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot221" />
 
         <ImageView
             android:id="@+id/spot222"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot222" />
 
         <ImageView
             android:id="@+id/spot223"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot223" />
 
         <ImageView
             android:id="@+id/spot224"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot224" />
 
         <ImageView
             android:id="@+id/spot225"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="spot225" />
     </android.widget.GridLayout>
 
