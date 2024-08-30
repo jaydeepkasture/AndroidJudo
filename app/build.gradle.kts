@@ -48,6 +48,7 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.12.0"))
+    implementation("com.microsoft.signalr:signalr:7.0.0")
     implementation("com.squareup.okhttp3:okhttp-tls:3.11.0")
     // define any required OkHttp artifacts without version
     implementation("com.squareup.okhttp3:okhttp")

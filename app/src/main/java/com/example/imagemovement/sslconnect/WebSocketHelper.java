@@ -91,10 +91,10 @@ public class WebSocketHelper {
                     // Build the URL using HttpUrl
                     HttpUrl url = new HttpUrl.Builder()
                             .scheme("http")  // Use https for initial URL creation
-                            .host("www.wslphone.com")
-                            .port(8080)
+                            .host("172.23.192.1")
+                            .port(9998)
                             .build();
-                    Request request = new Request.Builder().url(url).build();
+                    Request request = new Request.Builder().url("http://192.168.1.13:9998/chat").build();
                     WebSocketListener listener = new WebSocketListener() {
                         @Override
                         public void onOpen(WebSocket webSocket, Response response) {

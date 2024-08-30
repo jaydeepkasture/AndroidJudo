@@ -2,7 +2,10 @@
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">www.wslphone.com</domain>
-        <domain includeSubdomains="true">172.26.224.1</domain>
+        <domain includeSubdomains="true">172.23.192.1</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">192.168.1.13</domain>
+        <domain includeSubdomains="true">10.0.2.2:51295</domain>
         <trust-anchors>
             <certificates src="@raw/ca" />
         </trust-anchors>

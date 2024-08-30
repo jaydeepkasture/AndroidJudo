@@ -13,7 +13,7 @@
         android:layout_width="421dp"
         android:layout_height="421dp"
         android:alpha="1"
-        android:background="@drawable/_526560865"
+        android:background="@drawable/ludoboard"
         android:columnCount="15"
         android:paddingHorizontal="16dp"
         android:paddingVertical="15dp"

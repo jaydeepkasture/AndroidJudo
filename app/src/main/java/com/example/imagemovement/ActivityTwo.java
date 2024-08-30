@@ -2,26 +2,43 @@ package com.example.imagemovement;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
-import android.animation.PropertyValuesHolder;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.BounceInterpolator;
 import android.view.animation.LinearInterpolator;
+import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.os.Looper;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import java.net.BindException;
+import com.example.imagemovement.sslconnect.WebSocketHelper;
+import com.microsoft.signalr.HubConnection;
+import com.microsoft.signalr.HubConnectionBuilder;
+import com.microsoft.signalr.TransportEnum;
+
+import java.io.InputStream;
+import java.security.KeyStore;
+import java.security.cert.Certificate;
+import java.security.cert.CertificateFactory;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManagerFactory;
+import javax.net.ssl.X509TrustManager;
+
+import okhttp3.OkHttpClient;
 
 public class ActivityTwo extends AppCompatActivity {
 
@@ -40,12 +57,80 @@ public class ActivityTwo extends AppCompatActivity {
     int[] greenPath = new int[]{91,92,93,94,95,81,66,51,36,21,6,7,8,23,38,53,68,83,99,100,101,102,103,104,119,134,133,132,131,130,129,143,158,173,188,203,218,217,216,201,186,171,156,141,125,124,123,122,121,120,105,106,107,108,109,110,111};
 
     int[] safeSpot = new int[]{188,201,122,91,36,23,102,133};
+    private HubConnection hubConnection;
 
+    TextView textView;
+    Button BtnConnect,getStatus;
+    String tag="SignalR";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_two);
+        textView=findViewById(R.id.signalExc);
+        try {
+
+
+            // Create HubConnection using OkHttpClient
+            hubConnection = HubConnectionBuilder.create("http://192.168.1.13:5252/chat")
+
+                    .withTransport(TransportEnum.WEBSOCKETS)
+
+                    .build();
+
+            hubConnection.on("ReceiveMessage", (message) -> {
+                Log.d("SignalR ", "Message received: " + message);
+            }, String.class);
+
+            hubConnection.start().blockingAwait();
+
+        }catch (Exception e){
+          e.printStackTrace();
+            Log.i(tag,"jaydeep " +e.toString());
+            textView.setText(e.toString());
+        }
+
+        BtnConnect=(Button) findViewById(R.id.btnCon);
+        getStatus=(Button) findViewById(R.id.btnStatus);
+        BtnConnect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    OkHttpClient client = new OkHttpClient.Builder()
+                            .connectTimeout(30, TimeUnit.SECONDS)
+                            .readTimeout(30, TimeUnit.SECONDS)
+                            .build();
+
+                    hubConnection = HubConnectionBuilder.create("http://192.168.1.13:5252/chat")
+                            .withTransport(TransportEnum.WEBSOCKETS)
+                            .build();
+
+                    hubConnection.on("ReceiveMessage", (message) -> {
+                        Log.d("SignalR", "Message received: " + message);
+                    }, String.class);
+
+                    hubConnection.start().blockingAwait();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    Log.i(tag,e.toString());
+                    textView.setText(e.toString());
+                }
+            }
+        });
+
+        getStatus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    textView.setText(hubConnection.getConnectionState().toString());
+//                    hubConnection.send("Send","Android","HI server");
+                }catch (Exception e){
+                    e.printStackTrace();
+                    Log.i(tag,e.toString());
+                    textView.setText(e.toString());
+                }
+            }
+        });
         pawn = findViewById(R.id.google);
         gridLayout = findViewById(R.id.boardgrid);
 
